@@ -1,0 +1,43 @@
+# This is an static php build file. For my own test
+# Maintainer: EchoOfNewearth <echoofnewearth@gmail.com>
+
+pkgname=php
+pkgver=7.0.5
+pkgrel=1
+epoch=
+pkgdesc="php7 for msys"
+arch=('any')
+url="http://php.net/"
+license=('unknown')
+groups=()
+depends=()
+makedepends=()
+checkdepends=()
+optdepends=()
+provides=()
+conflicts=()
+replaces=()
+backup=()
+options=()
+install=
+changelog=
+source=("http://php.net/distributions/$pkgname-$pkgver.tar.xz")
+noextract=()
+sha256sums=('SKIP')
+validpgpkeys=()
+
+prepare() {
+	cd "$pkgname-$pkgver"
+}
+
+build() {
+	cd "$pkgname-$pkgver"
+}
+
+check() {
+	cd "$pkgname-$pkgver"
+}
+
+package() {
+	cd "$pkgname-$pkgver"
+}
